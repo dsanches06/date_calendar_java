@@ -1,5 +1,5 @@
 # date_calendar_java
-Trabalhar com Date e Calendar em Java
+Trabalhar com Date, SimpleDateFormat, Padrão ISO, Instant e Calendar em Java
 
 ### classes
 - Date
@@ -16,7 +16,7 @@ Trabalhar com Date e Calendar em Java
   - Formato: yyyy-MM-ddTHH:mm:ssZ
   - Exemplo: "2018-06-25T15:42:07Z"
   - Date y3 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
-  Calendar
+- Calendar
   - classe abstrata que fornece métodos para converter a data entre um instante específico no tempo e um conjunto de campos do calendário como MONTH, YEAR, HOUR 
   - Calendar.getInstance(): return a Calendar instance based on the current time in the default time zone with the default locale.
   - Calendar.getInstance(TimeZone zone)
